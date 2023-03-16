@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Users/aryanavillafuerte/Desktop/lashcode/lashcode.css">
+
+    <title>Lash Code Studio</title>
+
+</head>
+
+<body>
+    <!-- nav bar -->
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+            <a href="#">home</a>
+            <a href="#">lash care</a>
+            <a href="#">pricing</a>
+        </div>
+    </div>
+
+    <span style="font-size:60px;cursor:pointer;padding: 40px; color: gray; position: fixed;"
+        onclick="openNav()">&#9868;</span>
+
+    <!-- end of nav bar -->
+
+    <!-- header -->
+    <div class="logo">
+        <img src="/Users/aryanavillafuerte/Desktop/lashcode/lashcodestudio-logo.png" width="100%" alt="logo">
+    </div>
+    <!-- header -->
+
+    <!-- home page using grid containers/carousel -->
+    <div class="home-page-intro">
+        <!-- home pg col 1 -->
+        <div class="biz-description">
+            <h1><mark><i>whats your code?</i></mark></h1>
+            <p> Located in the heart of Seattle Wa, Lash Code Studio prioritizes the voice of their clients to ensure
+                that each lash map is carefully and critically designed to the satisfaction of the wearer. At Lash Code
+                Studio we believe that everyone has their own lash code that differs from the code of others. Each eye
+                shape and size is met with a fresh approach and consultation where we discuss lengths, styles, curls,
+                and most importantly the desired look for your eye shape. Each lash tech devotes their time to
+                understand the goals of their clients and form a personalized strategy to ensure the happiness and
+                confidence of every client.</p>
+        </div>
+
+        <div class="lash-map-carousel">
+            <div class="img-container">
+                <div class="images">
+                    <img src="/Users/aryanavillafuerte/Desktop/lashcode/lashmaps/cat-eye.png" alt="img1"
+                        width="500px;" />
+                    <img src="/Users/aryanavillafuerte/Desktop/lashcode/lashmaps/doll-eye.png" alt="img2"
+                        width="500px;" />
+                    <img src="/Users/aryanavillafuerte/Desktop/lashcode/lashmaps/wispy.png" alt="img3" width="500px;" />
+                </div>
+
+                <div class="indicator">
+                    <span class="btn1 dots"></span>
+                    <span class="btn2 dots"></span>
+                    <span class="btn3 dots"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end of home page intro/carousel -->
+
+    <!-- reviews using grid containers  -->
+    <div class="review-header">
+        <h1><i>love from clients</i></h1>
+    </div>
+
+    <div class="client-reviews">
+        <div class="review">
+            <img src="/Users/aryanavillafuerte/Desktop/lashcode/eyelash.jpeg" alt="lash clipart" width="80px"
+                height="80px">
+            <h5>Sally W</h5>
+            <div class="review-msg">
+                <p>My lashes looked and felt extremely natural! A friend recommended I get my lashes done here, and I
+                    have never stopped coming back. The people were so kind and accommodating to your lash needs.</p>
+            </div>
+            <h3 id="stars"> &#9733; &#9733; &#9733; &#9733; &#9733;</h3>
+        </div>
+
+        <div class="review">
+            <img src="/Users/aryanavillafuerte/Desktop/lashcode/eyelash.jpeg" alt="lash clipart" width="80px"
+                height="80px">
+            <h5>Sue P</h5>
+            <div class="review-msg">
+                <p>If you are looking for the perfect eyelash studio in the greater Seattle area, go see LCS! I’ve been
+                    to multiple eyelash businesses and Kelly is the best by far! The lash techs are great at what they
+                    do.</p>
+            </div>
+            <h3 id="stars"> &#9733; &#9733; &#9733; &#9733; &#9733;</h3>
+        </div>
+
+        <div class="review">
+            <img src="/Users/aryanavillafuerte/Desktop/lashcode/eyelash.jpeg" alt="lash clipart" width="80px"
+                height="80px">
+            <h5>Mary B</h5>
+            <div class="review-msg">
+                <p>Lash Code Studio is the best lash studio in Seattle. I tried multiple lash artists in our area and
+                    their work can’t compete with LCS lashes. I’ve been a client for about 7 years and her work has
+                    always been consistent.</p>
+            </div>
+            <h3 id="stars"> &#9733; &#9733; &#9733; &#9733; &#9733;</h3>
+        </div>
+    </div>
+    <!-- end of reviews -->
+
+    <!-- footer -->
+    <div class="footer">
+        <div class="footer-container-a">
+            <div class="contact-form-prompt">
+                <h1>see you soon!</h1>
+                <p><b>leave your info and a <i>Lash Code Studio</i> technichian will contact you.</b></p>
+            </div>
+            <div class="contact-form">
+                <form action="#" method="post">
+                    <input name="name" type="text" class="feedback-input" placeholder="name" />
+                    <input name="email" type="text" class="feedback-input" placeholder="email" />
+                    <input type="submit" value="< submit />" id="usercontact" />
+                </form>
+            </div>
+        </div>
+        <!-- ATTENTION: form purposefully does not redirect input -->
+        <div class="footer-container-b">
+            <div class="studio-contact">
+                <h1>connect with us</h1>
+                <h2><i>Lash Code Studio</i></h2>
+                <p>Open 7 days a week!</p>
+                <p>123 Sunset Blvd<br>Seattle Wa 98087<br>(206)234-6576</p>
+            </div>
+        </div>
+    </div>
+    <!-- end of footer -->
+</body>
+<script src="/Users/aryanavillafuerte/Desktop/lashcode/lashcode.js"></script>
+
+</html>
